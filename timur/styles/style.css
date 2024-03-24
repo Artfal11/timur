@@ -1,0 +1,168 @@
+body {
+  font-size: 18px;
+  background-color: rgb(93, 0, 127);
+  background-size: cover;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2d81db;
+  padding: 5px;
+}
+h1 {
+  background-color: rgba(0, 0, 134, 0.771);
+  color: #007bff;
+  text-align: center;
+}
+h2 {
+  background-color: rgba(0, 0, 134, 0.771);
+  color: #007bff;
+}
+.center {
+  text-align: center;
+}
+.my_div {
+  display: flex;
+}
+.my_div1 {
+  flex: 1;
+  background-color: rgb(195, 151, 255);
+  padding: 0.5em;
+  font-size: 16px;
+  border: 2px solid black;
+  z-index: 1;
+}
+.reg {
+  display: flex;
+  flex-direction: column;
+}
+.my_div1_list {
+  display: flex;
+  justify-content: space-between;
+}
+.my_div2 {
+  flex: 3;
+  background-color: rgb(196, 181, 216);
+  padding: 1em;
+  font-size: 18px;
+  border: 2px solid black;
+}
+.my_div3 {
+  margin-left: -10px;
+  flex: 2;
+  background-color: rgb(195, 151, 255);
+  padding: 1em;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.margin_class {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form {
+  background-color: rgb(196, 181, 216);
+}
+
+.ul_nav {
+  background-color: rgb(195, 181, 216);
+  margin-left: 25%;
+  margin-right: 25%;
+  list-style: none;
+  text-align: center;
+  display: block;
+  padding: 5px;
+  border: 5px black;
+}
+
+.ul_nav li {
+  display: inline;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 3px solid #333;
+  background-color: rgb(195, 151, 255);
+}
+.color_link {
+  background-color: rgb(196, 181, 216);
+}
+.logo_container {
+  width: 100px;
+  height: 100px;
+  background-color: #87ceeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_container_inner {
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+  position: relative;
+}
+.logo_1 {
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.logo_2 {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo_3 {
+  width: 10px;
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.logo_4 {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.logo_5 {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.logo_6 {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+.logo_7 {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+}
